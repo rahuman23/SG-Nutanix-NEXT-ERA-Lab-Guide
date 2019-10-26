@@ -6,7 +6,7 @@
   :name: _era
   :hidden:
 
-  era_deploy_and_register/era_deploy_and_register
+  #era_deploy_and_register/era_deploy_and_register
   era_provision_postgresdb/era_provision_postgresdb
   era_clone_postgresdb/era_clone_postgresdb
   era_rest_api/era_rest_api
@@ -24,8 +24,7 @@
   tools_vms/linux_tools_vm_cloud-init
   tools_vms/windows_tools_vm
 
-
-  .. _getting_started:
+.. _getting_started:
 
   ---------------
   Getting Started
