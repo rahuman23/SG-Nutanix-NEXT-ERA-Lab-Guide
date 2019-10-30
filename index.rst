@@ -34,7 +34,7 @@
 
   At the end of the bootcamp, attendees should understand the basic concepts and technologies that make up the Nutanix Enterprise Cloud stack and should be well prepared for a hosted or onsite proof-of-concept (POC) engagement.
 
-  To access the cluster, enter the following URL - https://10.42.83.37:9440/console/#login in your browser.
+  To access the ERA VM, enter the following URL - https://10.42.83.111:8443 in your browser.
 
   This will bring you the Prism Management interface.
 
@@ -69,6 +69,9 @@
      * - Credential
        - Username
        - Password
+     * - ERA VM
+       - admin
+       - Nutanix.NEXT2019
      * - Prism Element
        - admin
        - Nutanix.NEXT2019
@@ -81,6 +84,7 @@
      * - Prism Central VM
        - nutanix
        - Nutanix.NEXT2019
+
 
   Each cluster has a dedicated domain controller VM, **DC**, responsible for providing AD services for the **NTNXLAB.local** domain. The domain is populated with the following Users and Groups:
 
